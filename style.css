@@ -1189,6 +1189,21 @@ body, html {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .section8-post-text {
+    font-size: 0.6rem;
+  }
+
+  .section8-detail {
+    font-size: 0.6rem;
+  }
+
+  .section8-icon {
+    font-size: 0.6rem;
+    padding-left: 0.2rem;
+  }
+}
+
 @media screen and (max-height: 550px) {
   .section1-text-last {
     padding: 0;
