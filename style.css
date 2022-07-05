@@ -853,6 +853,12 @@ body, html {
   }
 }
 
+@media screen and (max-width: 1050px) {
+  .line {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .section1-text-last {
     padding-right: 0;
@@ -1041,10 +1047,6 @@ body, html {
 
   .section6-sec-last {
     padding-top: 5rem;
-  }
-
-  .line {
-    display: none;
   }
 
   .section6-heading {
