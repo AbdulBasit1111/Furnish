@@ -1150,6 +1150,7 @@ body, html {
 
   .section8-top-padding {
     padding-top: 0;
+    padding-right: 2rem;
   }
 
 
@@ -1185,5 +1186,24 @@ body, html {
 @media screen and (max-width: 760px) {
   .section7-reverse {
     flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-height: 550px) {
+  .section1-text-last {
+    padding: 0;
+    margin: 0;
+  }
+
+  .section1-button {
+    padding: 0.2rem 0.4rem;
+    font-size: 0.5rem;
+  }
+
+  .section3 {
+    height: fit-content;
+  }
+  .gallery-img, .gallery-img-last {
+    height: 40vh;
   }
 }
