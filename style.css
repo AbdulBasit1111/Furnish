@@ -8,6 +8,10 @@
   padding: 0;
 }
 
+body, html {
+  overflow-x: hidden;
+}
+
 
 
 
@@ -372,6 +376,7 @@
   align-items: center;
   padding-top: 9rem;
   background-color: #F7F7F7;
+  padding-bottom: 2rem;
 }
 
 .section6-top {
@@ -868,6 +873,11 @@
   .ding {
     padding: 0 0 4rem 4rem;
   }
+
+  .section6-button {
+    font-size: 0.7rem;
+    padding: 0.5rem 1rem;
+  }
 }
 
 
@@ -1064,11 +1074,6 @@
 
   .section6-buttons {
     top: 29rem;
-  }
-
-  .section6-button {
-    font-size: 0.7rem;
-    padding: 0.5rem 1rem;
   }
 
   .section6-center {
