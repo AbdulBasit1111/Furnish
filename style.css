@@ -309,6 +309,27 @@ body, html {
   max-height: 100%;
 }
 
+.gallery-text {
+  z-index: 2;
+  position: absolute;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-left: 1.4rem;
+  display: none;
+}
+
+.gallery-text1 {
+  padding-top: 9rem;
+}
+
+.gallery-text2 {
+  padding-top: 20rem;
+}
+
+.gallery-text3 {
+  padding-top: 31rem;
+}
 
 
 
@@ -1201,6 +1222,10 @@ body, html {
   .section8-icon {
     font-size: 0.6rem;
     padding-left: 0.2rem;
+  }
+
+  .gallery-text {
+    display: block;
   }
 }
 
