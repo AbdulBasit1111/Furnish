@@ -651,7 +651,7 @@ body, html {
   margin-bottom: 8rem;
 }
 
-.blog-top-text {
+.blog-title {
   margin-bottom: 0.7rem;
   font-weight: 600;
   font-size: smaller;
@@ -660,16 +660,16 @@ body, html {
   padding: 2rem;
 }
 
-.blog-text-heading {
+.blog-heading {
   font-size: 36px;
   font-weight: 500;
 }
 
-.blog-right {
+.blog-card {
   padding: 0rem 2rem;
 }
 
-.blog-heading {
+.blog-card-heading {
   font-size: 1.3rem;
   font-weight: 500;
 }
@@ -684,28 +684,28 @@ body, html {
   margin: 2rem 7rem 0rem 7rem;
 }
 
-.blog-inner-row {
+.blog-row {
   background-color: #FAFAFA;
   min-height: 40vh;
 }
 
-.blog-top {
+.blog-info {
   padding: 2rem;
 }
 
-.blog-icon {
+.blog-info-icon {
   color: #CF7832;
   font-size: 0.75rem;
 }
 
-.blog-detail {
+.blog-info-detail {
   font-weight: 500;
   font-size: smaller;
   color: #999AAA;
   padding-right: 0.6rem;
 }
 
-.blog-comment {
+.blog-info-comment {
   font-weight: 500;
   font-size: smaller;
   color: #CF7832;
@@ -734,19 +734,19 @@ body, html {
   padding-bottom: 6.5rem;
 }
 
-.furnish {
+.footer-furnish-title {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.footer-part1 {
+.footer-furnish {
   display: flex;
   flex-direction: column;
   align-items: left;
   padding: 7rem 0rem 0.5rem 7rem;
 }
 
-.footer-parts {
+.footer-part {
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -773,11 +773,11 @@ body, html {
   color: #A4D2E8;
 }
 
-.footer-part1-icon-div {
+.footer-furnish-icon-div {
   padding-left: 7rem;
 }
 
-.footer-part1-icon {
+.footer-furnish-icon {
   color: #6EB7DD;
   font-size: 2.3rem;
 }
@@ -817,11 +817,11 @@ body, html {
   padding-right: 1rem;
 }
 
-.francisco {
+.footer-text-francisco {
   padding-left: 2.1rem;
 }
 
-.remove-top {
+.footer-remove-top {
   margin-bottom: 0;
 }
 
@@ -848,11 +848,11 @@ body, html {
   padding: 2rem;
 }
 
-.copyright {
+.credit-copyright {
   color: #8694A1;
 }
 
-.name {
+.credit-name {
   color: #7bb9d8;
   font-size: 1rem;
 }
@@ -1118,11 +1118,11 @@ body, html {
     padding-top: 6rem;
   }
 
-  .blog-text-heading {
+  .blog-heading {
     font-size: 1.8rem;
   }
 
-  .blog-top-text {
+  .blog-title {
     padding-bottom: 0;
   }
 
@@ -1130,12 +1130,12 @@ body, html {
     margin: 0rem 0.5rem 0 0.5rem
   }
 
-  .blog-inner-row {
+  .blog-row {
     height: fit-content;
     margin-bottom: 0.5rem;
   }
 
-  .blog-detail, .blog-comment {
+  .blog-info-detail, .blog-info-comment {
     font-size: 0.6rem;
   }
 
@@ -1157,15 +1157,15 @@ body, html {
 
 
 
-  .footer-part1 {
+  .footer-furnish {
     padding: 5rem 0rem 0.5rem 0.7rem;
   }
 
-  .footer-part1-icon-div {
+  .footer-furnish-icon-div {
     padding-left: 0.7rem;
   }
 
-  .footer-parts {
+  .footer-part {
     padding: 1.5rem 0rem 0rem 0.7rem;
   }
 
@@ -1188,7 +1188,7 @@ body, html {
     padding: 1rem;
     text-align: center;
   }
-  .copyright, .testimonial-name, .fa-copyright, .fa-heart {
+  .credit-copyright, .testimonial-name, .fa-copyright, .fa-heart, .credit-name {
     font-size: 0.6rem;
   }
 }
