@@ -320,15 +320,15 @@ body, html {
 }
 
 .gallery-row-text1 {
-  padding-top: 9rem;
+  padding-top: 12rem;
 }
 
 .gallery-row-text2 {
-  padding-top: 20rem;
+  padding-top: 27.5rem;
 }
 
 .gallery-row-text3 {
-  padding-top: 31rem;
+  padding-top: 42.5rem;
 }
 
 
@@ -905,6 +905,10 @@ body, html {
     font-size: 0.7rem;
     padding: 0.5rem 1rem;
   }
+
+  .header-title {
+    padding-left: 4rem;
+  }
 }
 
 
@@ -929,7 +933,7 @@ body, html {
     background-color: rgb(48, 58, 86);
   }
 
-  .furnish-head {
+  .header-title {
     padding-left: 1rem;
     color: white;
   }
@@ -1013,13 +1017,8 @@ body, html {
     padding-top: 0;
   }
 
-  .stats-title {
-    font-size: 0.5rem;
-  }
 
-  .stats-heading {
-    font-size: 1.6rem;
-  }
+
 
 
 
@@ -1033,6 +1032,14 @@ body, html {
     font-size: 1.7rem;
   }
 
+  .testimonial-card2-left {
+    left: 1rem;
+  }
+
+  .testimonial-card3-left {
+    left: 2rem;
+  }
+
   .testimonial-card-body-text {
     font-size: 0.65rem;
   }
@@ -1040,10 +1047,6 @@ body, html {
   .testimonial-card-body-padding {
     padding-left: 0;
     padding-right: 0;
-  }
-
-  .testimonial-card-display {
-    display: none;
   }
 
   .testimonial-head-margin {
@@ -1188,7 +1191,7 @@ body, html {
     padding: 1rem;
     text-align: center;
   }
-  .credit-copyright, .testimonial-name, .fa-copyright, .fa-heart, .credit-name {
+  .credit-copyright, .testimonial-name, .testimonial-card2-name, .fa-copyright, .fa-heart, .credit-name {
     font-size: 0.6rem;
   }
 }
@@ -1202,11 +1205,27 @@ body, html {
   .button-display {
     display: none;
   }
+
+  .testimonial-card-display {
+    display: none;
+  }
+
+  .testimonial-card2-left {
+    left: 0;
+  }
+
+  .testimonial-card3-left {
+    left: 0;
+  }
 }
 
 @media screen and (max-width: 760px) {
   .blog-reverse {
     flex-direction: column-reverse;
+  }
+
+  .gallery-row-img, .gallery-row-img-last {
+    height: 35vh;
   }
 }
 
@@ -1227,6 +1246,18 @@ body, html {
   .gallery-row-text {
     display: block;
   }
+
+  .gallery-row-img, .gallery-row-img-last {
+    height: 25vh;
+  }
+
+  .stats-title {
+    font-size: 0.6rem;
+  }
+
+  .stats-heading {
+    font-size: 1.6rem;
+  }
 }
 
 @media screen and (max-height: 550px) {
@@ -1245,6 +1276,6 @@ body, html {
   }
 
   .gallery-row-img, .gallery-row-img-last {
-    height: 40vh;
+    height: 35vh;
   }
 }
